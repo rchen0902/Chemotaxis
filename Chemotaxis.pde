@@ -29,8 +29,22 @@ class Walker
   }
   void walk()
   {
-    myX = myX + (int)(Math.random()*3)-1;
-    myY = myY + (int)(Math.random()*3)-1;
+    if(myX > mouseX){
+      myX -= (int)(Math.random()*10);
+    } else if(myX < mouseX){
+      myX += (int)(Math.random()*10);
+    } else {
+      myX = myX + (int)(Math.random()*10)-10;
+    }
+      
+    if(myY > mouseY){
+      myY -= (int)(Math.random()*10);
+    } else if(myY < mouseY) {
+      myY += (int)(Math.random()*10);
+    }
+    else {
+      myY = myY + (int)(Math.random()*10)-10;
+    }
   }
   void show()
   {
@@ -38,3 +52,4 @@ class Walker
     ellipse(myX,myY,50,50);
   }
 }
+
