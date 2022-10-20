@@ -29,22 +29,8 @@ class Walker
   }
   void walk()
   {
-    if(myX > mouseX){
-      myX -= (int)(Math.random()*10);
-    } else if(myX < mouseX){
-      myX += (int)(Math.random()*10);
-    } else {
-      myX = myX + (int)(Math.random()*10)-10;
-    }
-      
-    if(myY > mouseY){
-      myY -= (int)(Math.random()*10);
-    } else if(myY < mouseY) {
-      myY += (int)(Math.random()*10);
-    }
-    else {
-      myY = myY + (int)(Math.random()*10)-10;
-    }
+    myX = myX + (int)(Math.random()*3)-1;
+    myY = myY + (int)(Math.random()*3)-1;
   }
   void show()
   {
