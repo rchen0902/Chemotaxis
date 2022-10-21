@@ -3,7 +3,7 @@ Walker[] bob;
 void setup()
 {
   size(750,750);
-  bob = new Walker[1000];
+  bob = new Walker[100];
   for(int i = 0; i < bob.length; i++)
   {
   bob[i] = new Walker();
