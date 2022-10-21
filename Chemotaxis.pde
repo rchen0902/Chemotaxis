@@ -48,7 +48,7 @@ class Walker()
   }
   void show()
   {
-    fill((int)(Math.random()*255+100),(int)(Math.random()*255+100),(int)(Math.random()*255+100));
+    fill((int)(Math.random()*100+100),(int)(Math.random()*100+100),(int)(Math.random()*100+100));
     ellipse(myX,myY,50,50);
   }
 }
