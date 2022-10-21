@@ -52,4 +52,3 @@ class Walker
     ellipse(myX,myY,50,50);
   }
 }
-
