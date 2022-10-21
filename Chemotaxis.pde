@@ -20,7 +20,7 @@ void draw()
   }
 }
 
-class Walker()
+class Walker
 {
   int myX, myY;
   {
