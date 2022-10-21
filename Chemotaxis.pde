@@ -23,6 +23,7 @@ void draw()
 class Walker
 {
   int myX, myY;
+  Walker ()
   {
     myX = 500;
     myY = 250;
